@@ -1,0 +1,109 @@
+.myTop {
+  background: url("/assets/images/back.webp")no-repeat center center;
+  background-size: cover;
+  margin: 0 auto;
+  width: 80%;
+  height: 700px;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 2;
+  font-size: 60px;
+  color: darkgray;
+}
+
+.nav-container {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+/* центрирую содержимое по горизонтали */
+
+.nav {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+/*убираю отступы по умолчанию*/
+
+.nav li {
+  display: inline-block;
+}
+
+/* располагаю элементы списка горизонтально */
+
+.nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*чтобы ссылки занимали всю ширину родительского элемента и стилизовались как блочные элементы.*/
+#Детство::before {
+  content: "\26f9";
+}
+
+#Личная-жизнь::before {
+  content: "\2b50";
+}
+
+#Лучшие-фильмы::before {
+  content: "\265b";
+}
+
+#Первые-роли::before {
+  content: "\26a1";
+}
+
+#Лучшие-фильмы,
+#Детство,
+#Первые-роли,
+#Личная-жизнь {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+section p {
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+  padding-left: 400px;
+  font-size: 20px;
+  text-indent: 50px;
+}
+
+body {
+  background: linear-gradient(to right, LightGray, Khaki);
+}
+
+section p::first-line {
+  color: blue;
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  /* распределение элементов по ширине */
+  align-items: center;
+  /* выравнивание элементов по вертикали */
+  background-color: #855be7;
+  padding: 10px;
+}
+
+footer div {
+  margin-right: 20px;
+  /*добавляем отступ между элементами*/
+}
+
+.photo {
+  text-align: center;
+
+}
