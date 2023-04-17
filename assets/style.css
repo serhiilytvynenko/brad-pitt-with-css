@@ -41,31 +41,25 @@
 }
 
 /*чтобы ссылки занимали всю ширину родительского элемента и стилизовались как блочные элементы.*/
-#Детство::before {
+#child::before {
   content: "\26f9";
 }
 
-#Личная-жизнь::before {
+#personal-life::before {
   content: "\2b50";
 }
 
-#Лучшие-фильмы::before {
+#best-films::before {
   content: "\265b";
 }
 
-#Первые-роли::before {
+#first-roles::before {
   content: "\26a1";
-}
-
-#Лучшие-фильмы,
-#Детство,
-#Первые-роли,
-#Личная-жизнь {
-  text-align: center;
 }
 
 h2 {
   font-size: 30px;
+  text-align: center;
 }
 
 section p {
@@ -100,7 +94,7 @@ footer {
 
 footer div {
   margin-right: 20px;
-  /*добавляем отступ между элементами*/
+  /*добавляю отступ между элементами*/
 }
 
 .photo {
